@@ -115,12 +115,4 @@ class Ubidot_Client:
     def close(self):
         self.r.close()
 
-if __name__ == "__main__":
 
-    def parser(value):
-        print("Se imprime :",value)
-
-
-    a = Ubidot_Client("BBFF-cr5rsI3tp7sblxpDJ3dXNgWc3eDpFB","Prueba")
-    a.start_receive_from_value("Motor", parser)
-    
